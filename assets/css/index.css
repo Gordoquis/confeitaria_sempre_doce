@@ -40,3 +40,47 @@ nav ul li a:hover{
     text-decoration: underline;
     color: #695725;
 }
+
+.img-carrosel{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    color: peru;
+}
+
+.container p{
+    font-size: 20px;
+    color: rgb(88, 82, 74);
+}
+.sobre h2{
+    font-family: "Bricolage Grotesque", sans-serif !important;
+}
+.menu-cardapio-itens{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-cardapio-item{
+    border:2px solid #f8b400 ;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+.menu-cardapio h2{
+    font-family: "Bricolage Grotesque", sans-serif !important;
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    background-color: #b48608;
+    
+}
+footer p{
+    color: brown;
+}
