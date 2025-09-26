@@ -89,3 +89,15 @@ footer{
 .logo{
     width: 0;
 }
+.link-admin{
+    text-decoration: none;
+    position: absolute;
+    right:0;
+    color: white;
+    padding-right: 10px;
+}
+.link-admin:hover{
+     font-weight: bold;
+    text-decoration: underline;
+    color: #695725;
+}

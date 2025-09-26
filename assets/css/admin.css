@@ -1,0 +1,56 @@
+body {
+     background-image: url("../img/bolo2.jfif");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 50px;
+    width: 250px;
+    border: 2px solid #ffbe5d;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #ffcf33;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(255, 77, 0);
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffcf33;
+}
+a:hover{
+    text-decoration: underline;
+}
