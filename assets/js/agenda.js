@@ -15,7 +15,7 @@ const opcoes = {
         alert(
             'Nome: ' + info.event.title + '\n' +
             'Produto: ' + info.event.extendedProps.pedido  + '\n' +
-            'Quantidade:' + info.event.extendedProps.qntd  + '\n' +
+            'Quantidade:' + info.event.extendedProps.qntde  + '\n' +
             'Tel: ' + info.event.extendedProps.telefone
         );
    
@@ -41,7 +41,10 @@ for(let i=0; i < compromissosLS.length; i++) {
     calendarioJS.addEvent({
         title: pedido['title'],
         start: pedido['start'],
-        end: pedido['end']
+        end: pedido['end'],
+        pedido: pedido['pedido'],
+        qntde: pedido['quantidade'],
+        telefone: pedido['numero']
     })
 }
 calendarioJS.render()
