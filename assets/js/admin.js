@@ -37,6 +37,6 @@ function validarLogin(){
         alert('Login inválido')
     }else{
          //vai para a pagina home
-                window.location.href='../../pages/home.admin.html'
+                window.location.href='../pages/home.admin.html'
     }
 }

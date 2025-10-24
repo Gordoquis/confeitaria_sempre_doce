@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/reserva.css">
+</head>
+
+<body>
+    
+
+   
+    <div class= "container">
+
+    <h1>Faça sua reserva:</h1>
+     <br>   
+     <h2>Seu nome:</h2>
+     <input type="text" id="nome">
+     <br><br> 
+    <h2>Qual o seu pedido?</h2>
+    <input type="text" id="pedido">
+    <h2>Quantidade:</h2>
+    <input type="number" id="qntd">
+    
+        <h2>Data de retirada:</h2>
+        <input type="date" id="data_fim">
+    
+
+    <br>
+    <h2>Telefone</h2>
+    <input type="number" id="telefone">
+    <br>    
+    <h2>Informações adicionais</h2>
+    <input type="text" id="info-add">
+    <br><br>
+
+    <button onclick="adicionarPedido()">Fazer pedido</button>
+    </section>
+    <br><br>
+    <a href="../index.html">Voltar para a página inicial</a>
+    </div>
+</body>
+<script src="../assets/js/reserva.js"></script>
+
+</html>

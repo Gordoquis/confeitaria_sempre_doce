@@ -1,0 +1,31 @@
+.container{
+    margin-top: 30px;
+    text-align: center;
+     font-family: "Story Script", sans-serif;
+     background-image: url(../img/bolo4.jfif);
+     background-size: cover;
+     height: 100%;
+}
+body,html{
+    height: 100%;
+}
+
+a{
+    color: chocolate;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+     text-decoration: underline;
+    cursor:pointer;
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+}
+input{
+    height: 30px;
+    border-color: brown;
+    border-radius: 5px;
+}
+
