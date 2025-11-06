@@ -1,8 +1,8 @@
 // Criar a lista de imagens
 let imagens = [
-    'assets/img/bolo1.jfif',
-    'assets/img/bolo2.jfif',
-    'assets/img/bolo3.jfif'
+    'assets/img/bolo1.jpg',
+    'assets/img/bolo2.jpg',
+    'assets/img/img3.webp'
 ]
 
 let indiceatualdaimagem=0
